@@ -1,12 +1,11 @@
-
-x = float(300)
-y = float(0)
-o = float(1)
-p = float(1)
-
 def setup():
     size(600, 600)
-    frameRate(100)                      
+    frameRate(100)
+    global x, y, o, p # aby mieć pewność, że te zmienne zainicjaliują się na początku przy otwarciu programu, powinny znaleźć się w tej funkcji
+    x = float(300)
+    y = float(0)
+    o = float(1)
+    p = float(1)                   
     global slownik_kolorow                            
     slownik_kolorow = {"biały":(255,255,255,80), "czarny":(0,0,0,100)} 
     global lista_kolorow
@@ -17,10 +16,7 @@ def setup():
     iteracja_programu = 0             
 def draw():                           
     global iteracja_programu
-    global x
-    global y
-    global o
-    global p
+    global x, y, o, p
     iteracja_programu +=1                                                   
     stroke(*slownik_kolorow["biały"]) 
     fill(*lista_kolorow[iteracja_programu%len(lista_kolorow)])
@@ -42,4 +38,6 @@ def draw():
         p=-p
     if mousePressed:
         exit()
+        
+# 2 pkt
     
