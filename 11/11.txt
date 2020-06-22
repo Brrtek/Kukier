@@ -1,0 +1,6 @@
+Sklep internetowy z grami (Playstation Store)
+Gracz patrząc na nowości, chce nabyć grę firmy Naughty Dog "The Last of Us 2". Przed zakupem
+pełnej wersji gry, pobiera darmową wersję demonstracyjną, by upewnić się definitywnie, że ją chce.
+WZORZEC: pełnomocnik
+DLACZEGO: Sklep oferujący wersję demonstracyjną pełni funkcję pełnomocnika, który
+oferuje określoną część pełnej wersji gry (nie potrzeba wczytywać całego zasobu).
