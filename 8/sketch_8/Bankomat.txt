@@ -1,0 +1,13 @@
+KlasaBankomat
+	Listawyborów_Bankomat
+	Wyświetl_Listawyborów_Bankomat
+	Wpłata_Bankomat
+	Wypłata_Bankomat
+		50złbezwydruku.Wypłata_Bankomat
+		normalnie.Wypłata_bankomat
+	Anulowanie_Bankomat
+	Sprawdzanie_Stanu_Konta_Bankomat
+
+KlasaKlient
+	Wpisanie_Pinu
+	Wybór.Listawyborów_Bankomat
