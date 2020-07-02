@@ -4,3 +4,4 @@ pełnej wersji gry, pobiera darmową wersję demonstracyjną, by upewnić się d
 WZORZEC: pełnomocnik
 DLACZEGO: Sklep oferujący wersję demonstracyjną pełni funkcję pełnomocnika, który
 oferuje określoną część pełnej wersji gry (nie potrzeba wczytywać całego zasobu).
+# ciekawy, oryginalny przykład, 2pkt
