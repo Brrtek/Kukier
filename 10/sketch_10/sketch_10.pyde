@@ -61,17 +61,18 @@ import unittest
 
 class Test(unittest.TestCase):
     
-    def alfabetycznie(self):
+    def test_alfabetycznie(self): # zapomniałam podkreślić, że nazwa testu musi się zaczynać od test...
         books = ["Naocznosc", "Sens Sztuki", "Harry Potter", "Trupia Farma"]
         result = sorted(books)
         self.assertEqual(result, ["Harry Potter", "Naocznosc", "Sens Sztuki", "Trupia Farma"])
         
-    def ilosc(self):
+    def test_ilosc(self):
         books = ["Naocznosc", "Sens Sztuki", "Harry Potter", "Trupia Farma"]
         result = len(books)
-        self.assretEqual(result, 4)
+        self.assertEqual(result, 4)
         
 if __name__ == '__main__':
     unittest.main()
     
-    #próbowałem różnymi sposobami, lecz za każdym razem wyskakuje mi "Ran 0 tests in 0.000s, OK", nie wiem co jest nie tak
+# w testach nie używasz klas z kodu, a więc testujesz nie kod, a wbudowane metody pythona
+# 1,5pkt
