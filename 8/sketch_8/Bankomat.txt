@@ -8,6 +8,9 @@ KlasaBankomat
 	Anulowanie_Bankomat
 	Sprawdzanie_Stanu_Konta_Bankomat
 
-KlasaKlient
+KlasaKlient # jeden klient może miec wiele kont, lepsza byłaby karta, czy konto
+	PIN ?
 	Wpisanie_Pinu
 	Wybór.Listawyborów_Bankomat
+
+#1pkt/1,5pkt
