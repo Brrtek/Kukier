@@ -20,9 +20,9 @@ class KolkowyKwadrat(Kwadrat):
         Kwadrat.sketch(self, x, y)
         przerwa =self.bok/kolka
         _xKolka_ = 0
-        for kolko in range(0, kolka):
-            circle(x+_xKolka_, y+_xKolka_, self.bok/kolka)
+        for kolko in range(0, kolka-1):
             _xKolka_+=przerwa
+            circle(x+_xKolka_, y+_xKolka_, self.bok/kolka)
                     
 def setup():
     size(500, 500)
@@ -31,3 +31,6 @@ def setup():
     malyKolkowyKwadrat.sketchKolkowy(50,50,20)
     duzyKolkowyKwadrat = KolkowyKwadrat(300.0)
     duzyKolkowyKwadrat.sketchKolkowy(100,150,20)
+    
+# dosyć mocna kalka metody
+# 1,5pkt
