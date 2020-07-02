@@ -42,3 +42,5 @@ def draw():
     Pozycja_szafka.rys()
     Pozycja_uchwyt.rys()
     print(uchwyt.uchwyt_click)
+    
+# 1,75pkt
