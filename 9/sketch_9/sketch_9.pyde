@@ -5,7 +5,7 @@ class Mustang():
         image(loadImage(self.img), 60, 60, 500, 292)
         
         
-    def ramka(self, x1, x2, x3, x4):
+    def ramka(self, x1, x2, x3, x4): # te metody nic nie wnoszą, zmieniają tylko nazwę funkcji którą wywołują
         self.x1 = x1
         self.x2 = x2
         self.x3 = x3
@@ -37,7 +37,6 @@ def setup():
         mustang.ramkaKolor(10,200,255)
         mustang.ramkaSrodek(50, 50, 500, 280)
         mustang.obraz(a)
-        text("Wyswietlono obraz", width/2-80, height -10)
         
     except:
         
@@ -46,3 +45,11 @@ def setup():
         mustang.ramka (40, 40, 520, 300)
         mustang.ramkaKolor(255,255,255)
         mustang.ramkaSrodek(50, 50, 500, 280)
+        
+    else:
+        text("Wyswietlono obraz", width/2-80, height -10)
+        
+        
+        
+# plus do aktywności za estetykę wykonania
+# 1,5pkt
